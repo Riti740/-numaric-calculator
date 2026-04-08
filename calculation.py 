@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyO+ZswFdUbP8mLzE8mLtqQJ",
+      "authorship_tag": "ABX9TyOMigPa98fJ0S7QMm+zeKcb",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,18 +28,19 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "qWrvAcFqdG3U"
-      },
-      "outputs": [],
       "source": [
-        " from numaric calculation import *\n",
-        " m=10\n",
-        " n=20\n",
-        " print(\"sum of\",m,\"and\",n,\"is:\", addnumbers (m,n))\n",
-        " print(\"product of \",m,\"and \",n,\"is:\",calculateproduct(m,n))"
-      ]
+        "#calculation3.py\n",
+        "from numariccalculation import addnumbers\n",
+        "m=10\n",
+        "n=20\n",
+        "print(\"sum of\",m,'and',n,\"is:\",addnumbers(m,n))\n",
+        "print9\"sum of \",m,\"and\",n,\"is:\",calculateproduct(m,n)"
+      ],
+      "metadata": {
+        "id": "n0Sp3gg0grAj"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
